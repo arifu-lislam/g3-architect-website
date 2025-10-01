@@ -7,3 +7,28 @@
   font-weight: 400px;
   font-style: normal;
 }
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+}
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    
+
+}
+.nav-banner{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.list-item{
+    margin-right: 30px;
+}
