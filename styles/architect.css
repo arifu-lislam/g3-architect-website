@@ -113,6 +113,53 @@ main> section{
 .feature-description{
     font-size: 16px;
 }
+
+/* features Enjoy section */
+.enjoy-title{
+    font-size: 2.8rem;
+
+}
+.enjoy-description{
+    font-size: 16px;
+    color: #727272;
+    max-width: 586px;
+}
+.enjoy-container-title{
+    font-size: 20px;
+    font-weight: 600px;
+}
+.enjoy-container-description{
+    color: #727272;
+    font-size: 16px;
+}
+.enjoy-card{
+    border: 2px solid gray;
+    max-width: 586px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 0px;
+}
+.feature-enjoy{
+    display: flex;
+    gap: 140px;
+}
+#experience-badge{
+    padding: 46px 42px;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+#experience-year{
+    font-size: 4.2rem;
+    font-weight: 800px;
+}
+.feature-enjoy-container2 img{
+    width: 100%;
+}
 /* fact-card section */
 .fact-card{
     border: 2px solid #FF900E;
@@ -174,7 +221,7 @@ main> section{
 }
 /* responsive device */
 @media screen and (max-width: 576px) {
-    .navber, .nav-links, .team{
+    .navber, .nav-links, .team, .feature-enjoy{
         flex-direction: column;
         
     }
@@ -195,11 +242,15 @@ main> section{
     .features-container{
         margin-left: 20px;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
     
 }
 /* medium device responsive */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .team{
+    .team, .feature-enjoy{
         flex-direction: column;
     }
     .features-container{
@@ -218,6 +269,13 @@ main> section{
         gap: 30px;
     }
     .fact-bundle{
+        justify-items: center;
+    }
+     #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .feature-enjoy-container1{
         justify-items: center;
     }
     
