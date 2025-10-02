@@ -219,6 +219,25 @@ main> section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+
+/* footer section */
+footer{
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: #FFF4E7;
+    padding: 30px ;
+    margin-top: 130px;
+    height: 100px;
+    border-radius: 8px;
+}
+.footer-section{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #rgba(66, 66, 66, 1);
+}
+
+
 /* responsive device */
 @media screen and (max-width: 576px) {
     .navber, .nav-links, .team, .feature-enjoy{
